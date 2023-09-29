@@ -1,14 +1,18 @@
 HMP_startup_on_actions = {
-	if = {
-		limit = {
-			has_game_rule = {
-				rule = navy_cap
-				option = ENABLED
-			}
-		}
-		every_country = {
-			add_dynamic_modifier = { modifier = fleet_overstack_dynamic_modifier  }
-		}
+	# if = {
+	# 	limit = {
+	# 		has_game_rule = {
+	# 			rule = navy_cap
+	# 			option = ENABLED
+	# 		}
+	# 	}
+	# 	every_country = {
+	# 		add_dynamic_modifier = { modifier = fleet_overstack_dynamic_modifier  }
+	# 	}
+	# }
+
+	every_country = {
+		add_dynamic_modifier = { modifier = fleet_overstack_dynamic_modifier  }
 	}
 }
 
