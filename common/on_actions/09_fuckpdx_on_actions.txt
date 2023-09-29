@@ -51,7 +51,8 @@ on_actions = {
 
 	on_startup = {
 		effect = {
-			HMP_startup_on_actions = yes
+			# HMP_startup_on_actions = yes
+			SWE = { HMP_startup_on_actions = yes }
 		}
 	}
 
