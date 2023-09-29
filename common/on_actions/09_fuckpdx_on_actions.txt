@@ -48,6 +48,13 @@ on_actions = {
 # 			}
 # 		}
 # 	}
+
+	on_startup = {
+		effect = {
+			HMP_startup_on_actions = yes
+		}
+	}
+
 	on_daily = {
 		effect = {
 			HMP_check_fleet_size = yes 

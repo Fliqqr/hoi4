@@ -173,11 +173,21 @@ guiTypes = {
 			maxHeight = 24
 			fixedsize = yes		
 		}
+		# instantTextBoxType = {
+		# 	name = "Screens Have"
+		# 	position = { x = 160 y = 65 } 
+		# 	font = "hoi_18mbs"
+		# 	text = "Screens: [GetScreenCount]" 
+		# 	format = left
+		# 	maxWidth = 100
+		# 	maxHeight = 24
+		# 	fixedsize = yes		
+		# }
 		instantTextBoxType = {
 			name = "Screens Have"
 			position = { x = 160 y = 65 } 
 			font = "hoi_18mbs"
-			text = "Screens: [GetScreenCount]" 
+			text = "Factor: [?fleet_overstack_naval_damage_factor]" 
 			format = left
 			maxWidth = 100
 			maxHeight = 24
@@ -193,6 +203,5 @@ guiTypes = {
 			maxHeight = 24
 			fixedsize = yes		
 		}	
-
 	}
 }
