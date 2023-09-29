@@ -59,5 +59,8 @@ on_actions = {
 		effect = {
 			HMP_check_fleet_size = yes 
 		}
+		effect = {
+			HMP_startup_on_actions = yes
+		}
 	}
 }
